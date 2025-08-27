@@ -1,0 +1,44 @@
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tile{
+    min-width: 45%;
+    max-width: 80%;
+    background-color: rgba(0, 0, 0, .65);
+    border-radius: 10px;
+}
+.tile p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.tile ul{
+    list-style: none;
+    min-width: 20%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.tile li{
+    border-radius: 10px;
+    background-color: black;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.tile li:hover{
+    background-color: grey;
+}
+.profile{
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+  .tile{
+      max-width: 100%;
+      font-size: 80%;
+  }
+}
