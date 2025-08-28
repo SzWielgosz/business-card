@@ -5,7 +5,6 @@ import { FaUserAlt } from 'react-icons/fa';
 import { GiSkills } from 'react-icons/gi';
 import { MdOutlineContactMail } from 'react-icons/md';
 import { AiOutlineCode, AiOutlineUser } from 'react-icons/ai';
-import { FaUser } from 'react-icons/fa';
 
 export default function Navbar() {
   return (
@@ -14,7 +13,7 @@ export default function Navbar() {
         <AiOutlineCode size={30} /> SzWielgosz
       </div>
       <nav className={styles.navbar}>
-        <ul className="navbar-menu">
+        <ul className={styles.navbarMenu}>
           <li>
             <Link to="home" smooth={true} duration={500}>
               <AiOutlineHome /> Home

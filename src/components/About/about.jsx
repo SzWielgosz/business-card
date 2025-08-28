@@ -6,7 +6,7 @@ export default function About() {
   return (
     <Element name="about">
         <section className={styles.about}>
-          <ScaleComponent className={styles.tile}>
+          <ScaleComponent className="tile">
           <h2>About Me</h2>
             <p>
               My name is Simon, a passionate learner stepping into the world of web development. 

@@ -25,7 +25,6 @@ export default function IntroScreen(){
           transition={{ duration: 1 }}
         >
           <motion.h1
-            className="text-3xl md:text-5xl font-bold text-white text-center px-4"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}

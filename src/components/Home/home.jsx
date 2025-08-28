@@ -6,9 +6,9 @@ export default function Home(){
     return(
         <Element name="home">
             <section className={styles.home}>
-                <ScaleComponent className={styles.tile}>
-                    <p>Hello! Welcome to My Page!</p>
-                    <p>Feel free to check all the informations included here!</p>
+                <ScaleComponent className="tile">
+                    <h2>Home</h2>
+                    <p>Hello! Welcome to My Page! <br /> Feel free to check all the informations included here!</p>
                 </ScaleComponent>
             </section>
         </Element>

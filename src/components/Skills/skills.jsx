@@ -9,7 +9,7 @@ export default function Home(){
     return(
         <Element name="skills">
             <section className={styles.skills}>
-                <ScaleComponent className={styles.tile}>
+                <ScaleComponent className="tile">
                     <h2>Skills</h2>
                     <p>
                         Technologies I have experience with:
@@ -31,7 +31,7 @@ export default function Home(){
                         </ul>
                     </div>
                     <p>
-                        <a href='https://github.com/SzWielgosz' className={styles.profile}>My Github Profile</a>
+                        <a href='https://github.com/SzWielgosz'>My Github Profile</a>
                     </p>
                 </ScaleComponent>
             </section>
