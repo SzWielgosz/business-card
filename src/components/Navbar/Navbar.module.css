@@ -25,6 +25,11 @@
     list-style: none;
 }
 
+.navbar li{
+    display: flex;
+    justify-content: center;
+}
+
 .navbar a {
     border: 1px solid transparent;
     border-radius: 25px;
@@ -62,7 +67,6 @@
     gap: 0.5rem;
     font-weight: bold;
     font-size: 1.2rem;
-    margin-left: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
