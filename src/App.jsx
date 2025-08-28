@@ -6,6 +6,7 @@ import Contact from './components/Contact/contact.jsx';
 import Skills from './components/Skills/skills.jsx'
 import Footer from './components/Footer/footer.jsx';
 import IntroScreen from './components/IntroScreen/IntroScreen.jsx';
+import Credits from './components/Credits/credits.jsx';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Skills />
       <Contact />
+      <Credits />
       <Footer />
     </div>
   );

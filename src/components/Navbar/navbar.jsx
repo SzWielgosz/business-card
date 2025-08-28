@@ -4,7 +4,8 @@ import { AiOutlineHome } from 'react-icons/ai';
 import { FaUserAlt } from 'react-icons/fa';
 import { GiSkills } from 'react-icons/gi';
 import { MdOutlineContactMail } from 'react-icons/md';
-import { AiOutlineCode } from 'react-icons/ai';
+import { AiOutlineCode, AiOutlineUser } from 'react-icons/ai';
+import { FaUser } from 'react-icons/fa';
 
 export default function Navbar() {
   return (
@@ -32,6 +33,11 @@ export default function Navbar() {
           <li>
             <Link to="contact" smooth={true} duration={500}>
               <MdOutlineContactMail /> Contact
+            </Link>
+          </li>
+          <li>
+            <Link to="credits" smooth={true} duration={500}>
+              <AiOutlineUser /> Credits
             </Link>
           </li>
         </ul>
