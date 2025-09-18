@@ -1,10 +1,10 @@
-import styles from './Navbar.module.css'
-import { Link } from 'react-scroll';
-import { AiOutlineHome } from 'react-icons/ai';
-import { FaUserAlt } from 'react-icons/fa';
-import { GiSkills } from 'react-icons/gi';
-import { MdOutlineContactMail } from 'react-icons/md';
-import { AiOutlineCode, AiOutlineUser } from 'react-icons/ai';
+import styles from "./Navbar.module.css";
+import { Link } from "react-scroll";
+import { AiOutlineHome } from "react-icons/ai";
+import { FaUserAlt } from "react-icons/fa";
+import { GiSkills } from "react-icons/gi";
+import { MdOutlineContactMail } from "react-icons/md";
+import { AiOutlineCode, AiOutlineUser } from "react-icons/ai";
 
 export default function Navbar() {
   return (

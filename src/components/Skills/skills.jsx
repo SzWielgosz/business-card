@@ -4,11 +4,13 @@ import { GrGraphQl, GrMysql } from "react-icons/gr";
 import { FaServer } from "react-icons/fa";
 import styles from './skills.module.css'
 import ScaleComponent from '../ScaleComponent';
+import Section from '../Section';
+
 
 export default function Home(){
     return(
         <Element name="skills">
-            <section className={styles.skills}>
+            <Section>
                 <ScaleComponent className="tile">
                     <h2>Skills</h2>
                     <p>
@@ -34,7 +36,7 @@ export default function Home(){
                         <a href='https://github.com/SzWielgosz'>My Github Profile</a>
                     </p>
                 </ScaleComponent>
-            </section>
+            </Section>
         </Element>
     )
 }
