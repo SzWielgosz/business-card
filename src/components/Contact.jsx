@@ -1,6 +1,7 @@
 import { Element } from "react-scroll";
 import ScaleComponent from "./ScaleComponent";
 import Section from "./Section";
+import ContactForm from "./ContactForm/ContactForm";
 
 export default function Contact() {
   return (
@@ -9,11 +10,12 @@ export default function Contact() {
         <ScaleComponent className="tile">
           <h2>Contact</h2>
           <p>
-            Let’s connect! I’m always open to new opportunities, collaborations.{" "}
-            <br /> Feel free to reach out via email at{" "}
-            <b>szwielgosz.contact@gmail.com</b> <br />
-            I’d love to hear from you!
+            Let’s connect! I’m always open to new opportunities, collaborations.
+            Feel free to fill out this form and send me a message!
           </p>
+          <div className="formContainer" style={{ display: "flex", justifyContent: "center" }}>
+            <ContactForm />
+          </div>
         </ScaleComponent>
       </Section>
     </Element>
